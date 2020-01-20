@@ -1,0 +1,82 @@
+body {
+    background-color: linen;
+}
+.tile {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    line-height: 0;
+  
+    border: 1px solid brown;
+  }
+  
+  .tile-row {
+    line-height: 0;
+    padding: 0;
+  }
+  
+  .tile-value {
+    text-align: center;
+    margin-top: 28px;
+  }
+  
+  #status {
+    font-weight: bold;
+    font-size: 24px;
+    
+  }
+  
+  #score-div {
+    font-weight: bold;
+    font-size: 24px;
+    color: brown;
+  }
+  #board {
+      text-align: center;
+  }
+  [id = '2'] {
+      background-color: chartreuse;
+  }
+  [id = '4'] {
+    background-color: lightseagreen;
+}
+[id = '8'] {
+    background-color: green;
+}
+[id = '16'] {
+    background-color: lightskyblue;
+}
+[id = '32'] {
+    background-color: blueviolet;
+}
+[id = '64'] {
+    background-color:  pink;
+}
+[id = '128'] {
+    background-color: orange;
+}
+[id = '256'] {
+    background-color: yellow ;
+}
+[id = '512'] {
+    background-color: darkgoldenrod ;
+}
+[id = '1024'] {
+    background-color: red;
+}
+[id = '2048'] {
+    background-color: midnightblue ;
+}
+#status {
+    size: 1000px;
+}
+
+#instructions {
+    text-align: center;
+    text-decoration-color: navy;
+    font-size: 40px;
+    font-style: italic;
+}
+
