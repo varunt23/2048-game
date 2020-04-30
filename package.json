@@ -10,7 +10,7 @@
   "dependencies": {
     "browsersync": "0.0.1-security",
     "esm": "^3.2.25",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "keypress": "^0.2.1"
   },
   "description": ""
